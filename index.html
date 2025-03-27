@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gredman Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-black text-white">
+
+    <!-- Navbar -->
+    <header class="text-white bg-black
+      body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <!-- <a href="#" class="mr-5 hover:text-gray-900">Home</a>
+          <a href="#" class="mr-5 hover:text-gray-900">About</a>
+          <a href="#" class="mr-5 hover:text-gray-900">Contact us</a>
+          <a href="#" class="hover:text-gray-900">Our Service</a> -->
+        </nav>
+        
+        </nav>
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+           
+     
+          <span class="ml-3 text-xl">GredMan Productions</span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative flex items-center justify-center h-screen px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Text Section -->
+            <div class="flex flex-col justify-center space-y-6">
+                <h1 class="text-8xl md:text-6xl font-bold">
+                    Your Vision, <br> <span class="text-orange-500">Our Creativity</span>
+                </h1>
+                <p class="text-lg text-gray-300">
+                    We provide high-quality video editing, shooting, and design solutions to make your brand stand out.
+                </p>
+                <a href="/contact.html" class="bg-orange-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold w-max inline-block transition-all duration-300 ease-in-out transform hover:scale-105">
+                    Contact Us
+                </a>
+            </div>
+
+            <!-- Image Section -->
+            <div class="relative h-screen flex justify-center items-center">
+              <img id="handImg" 
+                   src="https://static.vecteezy.com/system/resources/thumbnails/051/753/086/small_2x/hand-holding-a-camera-taking-a-picture-on-a-transparent-background-png.png" 
+                   alt="Camera Equipment" 
+                   class="w-full h-full object-contain max-w-screen max-h-screen transition-all duration-300 ease-in-out hover:scale-110">
+          </div>
+          
+          <script>
+              window.addEventListener("scroll", function () {
+                  let scrollTop = window.scrollY;
+                  let opacity = Math.max(1 - scrollTop / 500, 0); // Reduce opacity as you scroll
+                  document.getElementById("handImg").style.opacity = opacity;
+              });
+          </script>
+          
+    </section>
+
+   <!-- Features Section -->
+   <section class="text-gray-600 body-font py-24">
+    <div class="container px-5 mx-auto">
+        <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">Why Choose Gredman Productions?</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400">We offer top-notch video production, editing, and creative services to bring your vision to life.</p>
+            <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full bg-orange-500 inline-flex"></div>
+            </div>
+        </div>
+        <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-20 h-20 flex items-center justify-center bg-gray-800 text-white rounded-full mb-4 text-3xl">
+                    🎬
+                </div>
+                <h2 class="text-white text-lg title-font font-medium mb-3">Professional Video Editing</h2>
+                <p class="leading-relaxed text-base text-gray-400">High-quality video editing services tailored to your needs.</p>
+            </div>
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-20 h-20 flex items-center justify-center bg-gray-800 text-white rounded-full mb-4 text-3xl">
+                    📹
+                </div>
+                <h2 class="text-white text-lg title-font font-medium mb-3">Creative Video Shooting</h2>
+                <p class="leading-relaxed text-base text-gray-400">Capture your moments with our professional shooting services.</p>
+            </div>
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-20 h-20 flex items-center justify-center bg-gray-800 text-white rounded-full mb-4 text-3xl">
+                    ✍️
+                </div>
+                <h2 class="text-white text-lg title-font font-medium mb-3">Content Writing</h2>
+                <p class="leading-relaxed text-base text-gray-400">Elevate your message with our expert content writing services.</p>
+            </div>
+            
+           
+           
+             
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="bg-black py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-8 lg:text-3xl">Why Choose Gredman Productions?</h2>
+            <div class="w-16 h-1 bg-orange-500 mx-auto mb-4"></div>
+                       
+      
+          <div class="grid grid-cols-2 gap-6 bg-gray-300 rounded-lg p-6 sm:h-40 sm:content-center md:grid-cols-3">
+            <!-- Code Crafter Web Solution -->
+            <div class="flex justify-center items-center text-gray-400">
+              <img src="https://www.codecrafter.co.in/assets/logo-DaK6eKX-.png" alt="Code Crafter Web Solution" class="h-25 w-auto">
+            </div>
+      
+            <!-- Baya India -->
+            <div class="flex justify-center items-center text-gray-400">
+              <img src=" imges\image-removebg-preview (4).png" alt="Baya India" class="h-20 w-auto">
+            </div>
+      
+            <!-- Sai Sports India -->
+            <div class="flex justify-center ml-15 items-center text-gray-400">
+              <img src=" https://saisportsindia.com/images/Group%2010.png" alt="Sai Sports India" class="h-25 w-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</section>
+
+ 
+   <!-- Google Business Reviews Section -->
+<section class="bg-black py-8">
+    <div class="mx-auto max-w-screen-lg px-4 md:px-8">
+      <h2 class="mb-6 text-center text-2xl font-bold text-white md:mb-8 lg:text-3xl">What People Say About Us</h2>
+      <div class="w-16 h-1 bg-orange-500 mx-auto mb-6"></div>
+      
+      <div class="grid gap-6 md:grid-cols-3">
+        <!-- Review 1 - Talmiz Lucky -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300">"Gredman Productions took my videos to the next level! Their editing is top-notch and truly professional."</p>
+          <p class="mt-4 text-orange-500 font-bold">- Talmiz Lucky, YouTuber</p>
+        </div>
+        
+        <!-- Review 2 - Code Crafter Web Solution -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300">"Working with Gredman Productions was a seamless experience. Their editing skills brought our projects to life with exceptional quality and creativity!"</p>
+          <p class="mt-4 text-orange-500 font-bold">- Code Crafter Web Solution</p>
+        </div>
+        
+        <!-- Review 3 - Baya India -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300">"Gredman Productions perfectly captured the essence of our brand. Their video edits enhanced our marketing and brought our products to life!"</p>
+          <p class="mt-4 text-orange-500 font-bold">- Baya India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+<script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function() {
+        let scrollTop = window.scrollY || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            navbar.style.top = "-80px";
+        } else {
+            navbar.style.top = "0";
+        }
+        lastScrollTop = scrollTop;
+    });
+</script>
+
+
+
+
+</body>
+</html>
