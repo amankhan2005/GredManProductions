@@ -45,7 +45,7 @@
                 message: e.target.message.value
             };
 
-            const response = await fetch("https://gredman-backend.onrender.com/send-message", {
+            const response = await fetch("https://gredmanproductions.onrender.com", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
